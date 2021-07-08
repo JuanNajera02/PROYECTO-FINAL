@@ -1,0 +1,463 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C4242A0E-BB43-4B9E-845E-2F0818E583B8}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>PROYECTO_FINAL.My.MyApplication</StartupObject>
+    <RootNamespace>PROYECTO_FINAL</RootNamespace>
+    <AssemblyName>PROYECTO FINAL</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>PROYECTO FINAL.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>PROYECTO FINAL.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>ICONO PROYECTO FINAL.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AREA_TRIANGULO.designer.vb">
+      <DependentUpon>AREA_TRIANGULO.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AREA_TRIANGULO.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MENU_ACERCADE.Designer.vb">
+      <DependentUpon>MENU_ACERCADE.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MENU_ACERCADE.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MENU_CALCULADORA.Designer.vb">
+      <DependentUpon>MENU_CALCULADORA.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MENU_CALCULADORA.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MENU_CALIFICACIONES.Designer.vb">
+      <DependentUpon>MENU_CALIFICACIONES.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MENU_CALIFICACIONES.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MENU_CASE.Designer.vb">
+      <DependentUpon>MENU_CASE.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MENU_CASE.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MENU_FACTORIAL.Designer.vb">
+      <DependentUpon>MENU_FACTORIAL.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MENU_FACTORIAL.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MENU_HORAS_EXTRAS.Designer.vb">
+      <DependentUpon>MENU_HORAS_EXTRAS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MENU_HORAS_EXTRAS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MENU_HOTEL.Designer.vb">
+      <DependentUpon>MENU_HOTEL.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MENU_HOTEL.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MENU_INSCRIPCION.Designer.vb">
+      <DependentUpon>MENU_INSCRIPCION.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MENU_INSCRIPCION.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MENU_INVERSION.Designer.vb">
+      <DependentUpon>MENU_INVERSION.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MENU_INVERSION.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MENU_MANUAL.Designer.vb">
+      <DependentUpon>MENU_MANUAL.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MENU_MANUAL.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MENU_MNM2NUMEROS.Designer.vb">
+      <DependentUpon>MENU_MNM2NUMEROS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MENU_MNM2NUMEROS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MENU_MONEDASYBILLETES.designer.vb">
+      <DependentUpon>MENU_MONEDASYBILLETES.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MENU_MONEDASYBILLETES.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORM_CLIENTES.designer.vb">
+      <DependentUpon>FORM_CLIENTES.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FORM_CLIENTES.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORM_EMPLEADOS.designer.vb">
+      <DependentUpon>FORM_EMPLEADOS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FORM_EMPLEADOS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORM_INICIO.designer.vb">
+      <DependentUpon>FORM_INICIO.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FORM_INICIO.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORM_REGISTRO_SERVICIO.designer.vb">
+      <DependentUpon>FORM_REGISTRO_SERVICIO.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FORM_REGISTRO_SERVICIO.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FROM_MENU_CARWASH.designer.vb">
+      <DependentUpon>FROM_MENU_CARWASH.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FROM_MENU_CARWASH.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MENU_ALUMNOS.designer.vb">
+      <DependentUpon>MENU_ALUMNOS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MENU_ALUMNOS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MENU_CHEQUE.Designer.vb">
+      <DependentUpon>MENU_CHEQUE.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MENU_CHEQUE.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MENU_COSECHAS.Designer.vb">
+      <DependentUpon>MENU_COSECHAS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MENU_COSECHAS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MENU_PRESUPUESTOS.Designer.vb">
+      <DependentUpon>MENU_PRESUPUESTOS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MENU_PRESUPUESTOS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MENU_PRESUPUESTOS_LEERTXT.Designer.vb">
+      <DependentUpon>MENU_PRESUPUESTOS_LEERTXT.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MENU_PRESUPUESTOS_LEERTXT.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MENU_SEMAFORO.designer.vb">
+      <DependentUpon>MENU_SEMAFORO.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MENU_SEMAFORO.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MENU_CAPITALES.designer.vb">
+      <DependentUpon>MENU_CAPITALES.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MENU_CAPITALES.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MENU_JORNALEROS.Designer.vb">
+      <DependentUpon>MENU_JORNALEROS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MENU_JORNALEROS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MENU_PTU.Designer.vb">
+      <DependentUpon>MENU_PTU.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MENU_PTU.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MENU_TELEGRAMA.designer.vb">
+      <DependentUpon>MENU_TELEGRAMA.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MENU_TELEGRAMA.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MENU_ABARROTERA.Designer.vb">
+      <DependentUpon>MENU_ABARROTERA.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MENU_ABARROTERA.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MENU_ISR.Designer.vb">
+      <DependentUpon>MENU_ISR.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MENU_ISR.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MENU_CURPYRFC.designer.vb">
+      <DependentUpon>MENU_CURPYRFC.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MENU_CURPYRFC.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MENU_GASOLINA.designer.vb">
+      <DependentUpon>MENU_GASOLINA.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MENU_GASOLINA.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MENU_JAPAMA.designer.vb">
+      <DependentUpon>MENU_JAPAMA.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MENU_JAPAMA.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MENU_TRANSFERENCIAS.Designer.vb">
+      <DependentUpon>MENU_TRANSFERENCIAS.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MENU_TRANSFERENCIAS.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MENU_VELOCIDAD.Designer.vb">
+      <DependentUpon>MENU_VELOCIDAD.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MENU_VELOCIDAD.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PROYECTO_FINAL.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PROYECTO_FINAL.Designer.vb">
+      <DependentUpon>PROYECTO_FINAL.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AREA_TRIANGULO.resx">
+      <DependentUpon>AREA_TRIANGULO.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MENU_ACERCADE.resx">
+      <DependentUpon>MENU_ACERCADE.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MENU_CALCULADORA.resx">
+      <DependentUpon>MENU_CALCULADORA.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MENU_CALIFICACIONES.resx">
+      <DependentUpon>MENU_CALIFICACIONES.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MENU_CASE.resx">
+      <DependentUpon>MENU_CASE.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MENU_FACTORIAL.resx">
+      <DependentUpon>MENU_FACTORIAL.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MENU_HORAS_EXTRAS.resx">
+      <DependentUpon>MENU_HORAS_EXTRAS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MENU_HOTEL.resx">
+      <DependentUpon>MENU_HOTEL.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MENU_INSCRIPCION.resx">
+      <DependentUpon>MENU_INSCRIPCION.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MENU_INVERSION.resx">
+      <DependentUpon>MENU_INVERSION.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MENU_MANUAL.resx">
+      <DependentUpon>MENU_MANUAL.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MENU_MNM2NUMEROS.resx">
+      <DependentUpon>MENU_MNM2NUMEROS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MENU_MONEDASYBILLETES.resx">
+      <DependentUpon>MENU_MONEDASYBILLETES.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORM_CLIENTES.resx">
+      <DependentUpon>FORM_CLIENTES.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORM_EMPLEADOS.resx">
+      <DependentUpon>FORM_EMPLEADOS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORM_INICIO.resx">
+      <DependentUpon>FORM_INICIO.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORM_REGISTRO_SERVICIO.resx">
+      <DependentUpon>FORM_REGISTRO_SERVICIO.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FROM_MENU_CARWASH.resx">
+      <DependentUpon>FROM_MENU_CARWASH.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MENU_ALUMNOS.resx">
+      <DependentUpon>MENU_ALUMNOS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MENU_CHEQUE.resx">
+      <DependentUpon>MENU_CHEQUE.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MENU_COSECHAS.resx">
+      <DependentUpon>MENU_COSECHAS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MENU_PRESUPUESTOS.resx">
+      <DependentUpon>MENU_PRESUPUESTOS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MENU_PRESUPUESTOS_LEERTXT.resx">
+      <DependentUpon>MENU_PRESUPUESTOS_LEERTXT.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MENU_SEMAFORO.resx">
+      <DependentUpon>MENU_SEMAFORO.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MENU_CAPITALES.resx">
+      <DependentUpon>MENU_CAPITALES.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MENU_JORNALEROS.resx">
+      <DependentUpon>MENU_JORNALEROS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MENU_PTU.resx">
+      <DependentUpon>MENU_PTU.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MENU_TELEGRAMA.resx">
+      <DependentUpon>MENU_TELEGRAMA.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MENU_ABARROTERA.resx">
+      <DependentUpon>MENU_ABARROTERA.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MENU_ISR.resx">
+      <DependentUpon>MENU_ISR.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MENU_CURPYRFC.resx">
+      <DependentUpon>MENU_CURPYRFC.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MENU_GASOLINA.resx">
+      <DependentUpon>MENU_GASOLINA.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MENU_JAPAMA.resx">
+      <DependentUpon>MENU_JAPAMA.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MENU_TRANSFERENCIAS.resx">
+      <DependentUpon>MENU_TRANSFERENCIAS.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MENU_VELOCIDAD.resx">
+      <DependentUpon>MENU_VELOCIDAD.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PROYECTO_FINAL.resx">
+      <DependentUpon>PROYECTO_FINAL.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AcroPDFLib">
+      <Guid>{05BFD3F1-6319-4F30-B752-C7A22889BCC4}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="AxAcroPDFLib">
+      <Guid>{05BFD3F1-6319-4F30-B752-C7A22889BCC4}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ICONO PROYECTO FINAL.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>

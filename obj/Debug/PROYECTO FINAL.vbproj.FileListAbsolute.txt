@@ -1,0 +1,52 @@
+C:\Users\jpnaj\source\repos\PROYECTO FINAL\bin\Debug\PROYECTO FINAL.exe.config
+C:\Users\jpnaj\source\repos\PROYECTO FINAL\bin\Debug\PROYECTO FINAL.exe
+C:\Users\jpnaj\source\repos\PROYECTO FINAL\bin\Debug\PROYECTO FINAL.pdb
+C:\Users\jpnaj\source\repos\PROYECTO FINAL\bin\Debug\PROYECTO FINAL.xml
+C:\Users\jpnaj\source\repos\PROYECTO FINAL\bin\Debug\Interop.AcroPDFLib.dll
+C:\Users\jpnaj\source\repos\PROYECTO FINAL\bin\Debug\AxInterop.AcroPDFLib.dll
+C:\Users\jpnaj\source\repos\PROYECTO FINAL\obj\Debug\PROYECTO FINAL.vbprojAssemblyReference.cache
+C:\Users\jpnaj\source\repos\PROYECTO FINAL\obj\Debug\Interop.AcroPDFLib.dll
+C:\Users\jpnaj\source\repos\PROYECTO FINAL\obj\Debug\AxInterop.AcroPDFLib.dll
+C:\Users\jpnaj\source\repos\PROYECTO FINAL\obj\Debug\PROYECTO FINAL.vbproj.ResolveComReference.cache
+C:\Users\jpnaj\source\repos\PROYECTO FINAL\obj\Debug\PROYECTO_FINAL.AREA_TRIANGULO.resources
+C:\Users\jpnaj\source\repos\PROYECTO FINAL\obj\Debug\PROYECTO_FINAL.MENU_ACERCADE.resources
+C:\Users\jpnaj\source\repos\PROYECTO FINAL\obj\Debug\PROYECTO_FINAL.MENU_CALCULADORA.resources
+C:\Users\jpnaj\source\repos\PROYECTO FINAL\obj\Debug\PROYECTO_FINAL.MENU_CALIFICACIONES.resources
+C:\Users\jpnaj\source\repos\PROYECTO FINAL\obj\Debug\PROYECTO_FINAL.MENU_CASE.resources
+C:\Users\jpnaj\source\repos\PROYECTO FINAL\obj\Debug\PROYECTO_FINAL.MENU_FACTORIAL.resources
+C:\Users\jpnaj\source\repos\PROYECTO FINAL\obj\Debug\PROYECTO_FINAL.MENU_HORAS_EXTRAS.resources
+C:\Users\jpnaj\source\repos\PROYECTO FINAL\obj\Debug\PROYECTO_FINAL.MENU_HOTEL.resources
+C:\Users\jpnaj\source\repos\PROYECTO FINAL\obj\Debug\PROYECTO_FINAL.MENU_INSCRIPCION.resources
+C:\Users\jpnaj\source\repos\PROYECTO FINAL\obj\Debug\PROYECTO_FINAL.MENU_INVERSION.resources
+C:\Users\jpnaj\source\repos\PROYECTO FINAL\obj\Debug\PROYECTO_FINAL.MENU_MANUAL.resources
+C:\Users\jpnaj\source\repos\PROYECTO FINAL\obj\Debug\PROYECTO_FINAL.MENU_MNM2NUMEROS.resources
+C:\Users\jpnaj\source\repos\PROYECTO FINAL\obj\Debug\PROYECTO_FINAL.MENU_MONEDASYBILLETES.resources
+C:\Users\jpnaj\source\repos\PROYECTO FINAL\obj\Debug\PROYECTO_FINAL.FORM_CLIENTES.resources
+C:\Users\jpnaj\source\repos\PROYECTO FINAL\obj\Debug\PROYECTO_FINAL.FORM_EMPLEADOS.resources
+C:\Users\jpnaj\source\repos\PROYECTO FINAL\obj\Debug\PROYECTO_FINAL.FROM_INICIO.resources
+C:\Users\jpnaj\source\repos\PROYECTO FINAL\obj\Debug\PROYECTO_FINAL.FORM_REGISTRO_SERVICIO.resources
+C:\Users\jpnaj\source\repos\PROYECTO FINAL\obj\Debug\PROYECTO_FINAL.FORM_MENU_CARWASH.resources
+C:\Users\jpnaj\source\repos\PROYECTO FINAL\obj\Debug\PROYECTO_FINAL.MENU_ALUMNOS.resources
+C:\Users\jpnaj\source\repos\PROYECTO FINAL\obj\Debug\PROYECTO_FINAL.MENU_CHEQUE.resources
+C:\Users\jpnaj\source\repos\PROYECTO FINAL\obj\Debug\PROYECTO_FINAL.MENU_COSECHAS.resources
+C:\Users\jpnaj\source\repos\PROYECTO FINAL\obj\Debug\PROYECTO_FINAL.MENU_PRESUPUESTOS.resources
+C:\Users\jpnaj\source\repos\PROYECTO FINAL\obj\Debug\PROYECTO_FINAL.menu_presupuestos_leertxt.resources
+C:\Users\jpnaj\source\repos\PROYECTO FINAL\obj\Debug\PROYECTO_FINAL.FORM_SEMAFORO.resources
+C:\Users\jpnaj\source\repos\PROYECTO FINAL\obj\Debug\PROYECTO_FINAL.MENU_CAPITALES.resources
+C:\Users\jpnaj\source\repos\PROYECTO FINAL\obj\Debug\PROYECTO_FINAL.MENU_JORNALEROS.resources
+C:\Users\jpnaj\source\repos\PROYECTO FINAL\obj\Debug\PROYECTO_FINAL.MENU_PTU.resources
+C:\Users\jpnaj\source\repos\PROYECTO FINAL\obj\Debug\PROYECTO_FINAL.MENU_TELEGRAMA.resources
+C:\Users\jpnaj\source\repos\PROYECTO FINAL\obj\Debug\PROYECTO_FINAL.MENU_ABARROTERA.resources
+C:\Users\jpnaj\source\repos\PROYECTO FINAL\obj\Debug\PROYECTO_FINAL.ISR.resources
+C:\Users\jpnaj\source\repos\PROYECTO FINAL\obj\Debug\PROYECTO_FINAL.MENU_CURPYRFC.resources
+C:\Users\jpnaj\source\repos\PROYECTO FINAL\obj\Debug\PROYECTO_FINAL.MENU_GASOLINA.resources
+C:\Users\jpnaj\source\repos\PROYECTO FINAL\obj\Debug\PROYECTO_FINAL.MENU_JAPAMA.resources
+C:\Users\jpnaj\source\repos\PROYECTO FINAL\obj\Debug\PROYECTO_FINAL.MENU_TRANSFERENCIAS.resources
+C:\Users\jpnaj\source\repos\PROYECTO FINAL\obj\Debug\PROYECTO_FINAL.MENU_VELOCIDAD.resources
+C:\Users\jpnaj\source\repos\PROYECTO FINAL\obj\Debug\PROYECTO_FINAL.FORM_MENU_PROGRAMAS.resources
+C:\Users\jpnaj\source\repos\PROYECTO FINAL\obj\Debug\PROYECTO_FINAL.Resources.resources
+C:\Users\jpnaj\source\repos\PROYECTO FINAL\obj\Debug\PROYECTO FINAL.vbproj.GenerateResource.cache
+C:\Users\jpnaj\source\repos\PROYECTO FINAL\obj\Debug\PROYECTO FINAL.vbproj.CoreCompileInputs.cache
+C:\Users\jpnaj\source\repos\PROYECTO FINAL\obj\Debug\PROYECTO FINAL.exe
+C:\Users\jpnaj\source\repos\PROYECTO FINAL\obj\Debug\PROYECTO FINAL.xml
+C:\Users\jpnaj\source\repos\PROYECTO FINAL\obj\Debug\PROYECTO FINAL.pdb
